@@ -1,0 +1,41 @@
+.wrapper { position: relative; flex-shrink: 0; }
+
+.switcher {
+  display: flex;
+  padding: 3px;
+  gap: 2px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--wash);
+}
+
+.switcher button {
+  min-height: 36px;
+  min-width: 36px;
+  padding: 5px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.875rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.switcher button:hover { color: var(--blue-dark); }
+.switcher button.selected { background: var(--paper); color: var(--blue-dark); }
+.switcher button:disabled { cursor: wait; }
+
+.error {
+  position: absolute;
+  z-index: 2;
+  top: calc(100% + 8px);
+  right: 0;
+  width: min(230px, 70vw);
+  padding: 10px;
+  border: 1px solid #ebcaca;
+  border-radius: 8px;
+  background: var(--paper);
+  color: #9d2929;
+  font-size: 0.875rem;
+}
