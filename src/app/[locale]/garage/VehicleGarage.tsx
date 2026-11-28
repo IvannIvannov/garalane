@@ -6,8 +6,10 @@ import type { Locale } from "@/i18n/config";
 import { vehicleText } from "@/i18n/vehicles";
 
 import styles from "./garage.module.css";
+import VehicleFields from "./VehicleFields";
 import {
   getVehicleSnapshot,
+  isFuelType,
   latestYear,
   parseVehicles,
   subscribeToVehicles,
@@ -65,10 +67,14 @@ export default function VehicleGarage({ locale }: { locale: Locale }) {
     const make = String(form.get("make") ?? "").trim();
     const model = String(form.get("model") ?? "").trim();
     const year = Number(form.get("year"));
+    const fuelInput = form.get("fuel");
+    const engine = String(form.get("engine") ?? "").trim() || undefined;
+    const fuel = isFuelType(fuelInput) ? fuelInput : undefined;
     const mileageInput = String(form.get("mileage") ?? "").trim();
     const mileage = mileageInput === "" ? null : Number(mileageInput);
 
     if (!make || make.length > 60 || !model || model.length > 80 ||
+        (!fuel && Boolean(fuelInput)) || (engine && (!fuel || engine.length > 160)) ||
         !Number.isInteger(year) || year < 1886 || year > latestYear() ||
         (mileage !== null && (!Number.isSafeInteger(mileage) || mileage < 0))) {
       setError(t.invalid);
@@ -76,9 +82,9 @@ export default function VehicleGarage({ locale }: { locale: Locale }) {
     }
 
     void apply((current) => {
-      if (!existing) return [...current, { id: crypto.randomUUID(), make, model, year, mileage }];
+      if (!existing) return [...current, { id: crypto.randomUUID(), make, model, year, mileage, fuel, engine }];
       if (!current.some(({ id }) => id === existing.id)) return null;
-      return current.map((car) => car.id === existing.id ? { ...car, make, model, year, mileage } : car);
+      return current.map((car) => car.id === existing.id ? { ...car, make, model, year, mileage, fuel, engine } : car);
     }, true);
   }
 
@@ -98,12 +104,7 @@ export default function VehicleGarage({ locale }: { locale: Locale }) {
       ) : (
         <form className={styles.editor} onSubmit={save}>
           <h2>{existing ? t.edit : t.add}</h2>
-          <div className={styles.fields}>
-            <label>{t.make}<input name="make" defaultValue={existing?.make} required maxLength={60} disabled={pending} /></label>
-            <label>{t.model}<input name="model" defaultValue={existing?.model} required maxLength={80} disabled={pending} /></label>
-            <label>{t.year}<input name="year" type="number" defaultValue={existing?.year} required min={1886} max={latestYear()} disabled={pending} /></label>
-            <label>{t.mileage} · {t.optional}<input name="mileage" type="number" min={0} max={Number.MAX_SAFE_INTEGER} defaultValue={existing?.mileage ?? ""} disabled={pending} /></label>
-          </div>
+          <VehicleFields existing={existing} locale={locale} pending={pending} />
           <div className={styles.actions}>
             <button className={styles.primary} disabled={pending}>{t.save}</button>
             <button className={styles.secondary} type="button" disabled={pending} onClick={() => openEditor(null)}>{t.cancel}</button>
@@ -118,6 +119,7 @@ export default function VehicleGarage({ locale }: { locale: Locale }) {
               <div>
                 <h2>{vehicle.make} {vehicle.model}</h2>
                 <p>{vehicle.year}{vehicle.mileage !== null && ` · ${number.format(vehicle.mileage)} ${t.kilometers}`}</p>
+                {vehicle.fuel && <p>{t.fuels[vehicle.fuel]}{vehicle.engine && ` · ${vehicle.engine.replace(/ · US EPA$/, " · " + t.usMarket)}`}</p>}
               </div>
               <div className={styles.actions}>
                 <button type="button" className={styles.secondary} aria-label={`${t.edit} — ${vehicle.make} ${vehicle.model}`} disabled={pending || editor !== null} onClick={() => openEditor(vehicle)}>{t.edit}</button>

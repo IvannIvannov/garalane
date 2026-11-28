@@ -1,9 +1,21 @@
+export const fuelTypes = [
+  "petrol", "diesel", "electric", "hybrid", "plugInHybrid", "lpg", "cng", "ethanol", "hydrogen", "other",
+] as const;
+
+export type FuelType = (typeof fuelTypes)[number];
+
+export function isFuelType(value: unknown): value is FuelType {
+  return fuelTypes.some((fuel) => fuel === value);
+}
+
 export type Vehicle = {
   id: string;
   make: string;
   model: string;
   year: number;
   mileage: number | null;
+  fuel?: FuelType;
+  engine?: string;
 };
 
 const key = "garalane.vehicles.v1";
@@ -13,12 +25,14 @@ export const latestYear = () => new Date().getFullYear() + 1;
 
 function isVehicle(value: unknown): value is Vehicle {
   if (!value || typeof value !== "object") return false;
-  const { id, make, model, year, mileage } = value as Partial<Vehicle>;
+  const { id, make, model, year, mileage, fuel, engine } = value as Partial<Vehicle>;
   return (
     typeof id === "string" && id.length > 0 &&
     typeof make === "string" && make.trim().length > 0 && make.length <= 60 &&
     typeof model === "string" && model.trim().length > 0 && model.length <= 80 &&
     typeof year === "number" && Number.isInteger(year) && year >= 1886 &&
+    (fuel === undefined || isFuelType(fuel)) &&
+    (engine === undefined || (typeof engine === "string" && engine.trim().length > 0 && engine.length <= 160)) &&
     (mileage === null || (typeof mileage === "number" && Number.isSafeInteger(mileage) && mileage >= 0))
   );
 }

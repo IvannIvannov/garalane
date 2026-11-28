@@ -68,3 +68,104 @@
 @media (max-width: 500px) {
   .fields { grid-template-columns: 1fr; }
 }
+
+.customField { margin-top: 10px; }
+
+.fieldNote { margin-top: 5px; color: var(--muted); font-size: 0.875rem; }
+
+.dropdown { position: relative; min-width: 0; }
+.dropdown:has(input[aria-expanded="true"]) { z-index: 2; }
+
+.dropdownTrigger {
+  display: flex;
+  margin-top: 4px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+}
+
+.dropdownTrigger:hover,
+.dropdownTrigger:focus-within { border-color: var(--blue); }
+
+.fields .dropdownInput {
+  min-width: 0;
+  width: 100%;
+  padding: 9px 13px;
+  border: 0;
+  background: transparent;
+  text-overflow: ellipsis;
+}
+
+.dropdownToggle {
+  flex: 0 0 40px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 0 9px 9px 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.dropdownInput:disabled, .dropdownToggle:disabled { opacity: 0.6; cursor: default; }
+
+.dropdownChevron {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  margin: -3px 3px 0 0;
+  border-right: 2px solid var(--blue-dark);
+  border-bottom: 2px solid var(--blue-dark);
+  transform: rotate(45deg);
+}
+
+.dropdownToggle[aria-expanded="true"] .dropdownChevron {
+  margin-top: 3px;
+  transform: rotate(225deg);
+}
+
+.dropdownList {
+  position: absolute;
+  inset: calc(100% + 6px) 0 auto;
+  max-height: min(17rem, 42vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-color: var(--blue) var(--wash);
+  padding: 5px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+  box-shadow: 0 12px 28px #181e2326;
+}
+
+.dropdownGroup {
+  padding: 9px 11px 5px;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 650;
+}
+
+.dropdownOption {
+  position: relative;
+  padding: 9px 32px 9px 11px;
+  border-radius: 7px;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+
+.dropdownOption:hover,
+.dropdownOption[data-active="true"] { background: var(--wash); }
+
+.dropdownOption[aria-selected="true"] {
+  background: #e0e8f1;
+  color: var(--blue-dark);
+  font-weight: 650;
+}
+
+.dropdownOption[data-active="true"] { box-shadow: inset 0 0 0 1px var(--blue); }
+
+.dropdownOption[aria-selected="true"]::after {
+  position: absolute;
+  right: 12px;
+  content: "✓";
+}

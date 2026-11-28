@@ -1,0 +1,254 @@
+{
+  "Alfa Romeo": {
+    "Giulia": {"petrol":["GIULIA 2.0 T Essence (200ch) AT8 · 1995 cm³ · 148 kW","GIULIA 2.0 T Essence (280ch) AT8 Q4 · 1995 cm³ · 206 kW","GIULIA 2.0 T Essence (280ch) AT8 · 1995 cm³ · 206 kW","GIULIA 2.9 V6 (510ch) AT8 · 2891 cm³ · 375 kW"],"diesel":["GIULIA 2.2 Diesel (160ch) AT8 · 2143 cm³ · 118 kW","GIULIA 2.2 Diesel (190ch) AT8 · 2143 cm³ · 140 kW","GIULIA 2.2 Diesel (210ch) AT8 Q4 · 2143 cm³ · 154 kW"]},
+    "Stelvio": {"diesel":["STELVIO 2.2 Diesel (160ch) AT8 · 2143 cm³ · 118 kW","STELVIO 2.2 Diesel (190ch) AT8 Q4 · 2143 cm³ · 140 kW","STELVIO 2.2 Diesel (190ch) AT8 · 2143 cm³ · 140 kW","STELVIO 2.2 Diesel (210ch) AT8 Q4 · 2143 cm³ · 154 kW"],"petrol":["STELVIO 2.0 T Essence (200ch) AT8 Q4 · 1995 cm³ · 148 kW","STELVIO 2.0 T Essence (280ch) AT8 Q4 · 1995 cm³ · 206 kW","STELVIO 2.9 V6 (510ch) AT8 Q4 · 2891 cm³ · 375 kW"]}
+  },
+  "Alpine": {
+    "A110": {"petrol":["A110 (251ch) · 1798 cm³ · 185 kW","A110 (300ch) · 1798 cm³ · 221 kW"]}
+  },
+  "Audi": {
+    "A3": {"hybrid":["A3 Sportback facelift 30 TFSI Mild Hybrid (110ch) S tronic 7 · 999 cm³ · 81 kW","A3 Sportback facelift 35 TFSI Mild Hybrid (150ch) S tronic 7 · 1498 cm³ · 110 kW"],"plugInHybrid":["A3 Sportback facelift 40 TFSI e TFSI (204ch) S tronic 6 · 1395 cm³ · 110 kW","A3 Sportback facelift 45 TFSI e (245ch) S tronic 6 · 1395 cm³ · 110 kW"],"diesel":["A3 Sportback facelift 30 TDI (116ch) S tronic 7 · 1968 cm³ · 85 kW","A3 Sportback facelift 35 TDI (150ch) S tronic 7 · 1968 cm³ · 110 kW","A3 Sportback facelift 40 TDI (200ch) quattro S tronic 7 · 1968 cm³ · 147 kW"]},
+    "E-Tron GT": {"electric":["RS e-tron GT quattro (598ch)","e-tron GT quattro (476ch)"]},
+    "Q3": {"petrol":["Q3 Sportback 35 TFSI (150ch) BVM6 · 1498 cm³ · 110 kW"]}
+  },
+  "BMW": {
+    "116": {"petrol":["116i · 1499 cm³ · 80 kW"],"diesel":["116d · 1496 cm³ · 85 kW"]},
+    "118": {"petrol":["118i · 1499 cm³ · 100 kW"]},
+    "120": {"petrol":["120i · 1998 cm³ · 131 kW"]},
+    "128": {"petrol":["128ti · 1998 cm³ · 195 kW"]},
+    "135": {"petrol":["M135i xDrive · 1998 cm³ · 225 kW"]},
+    "218": {"petrol":["218i Active Tourer · 1499 cm³ · 100 kW","218i Gran CoupÃ© · 1499 cm³ · 100 kW"],"diesel":["218d Active Tourer · 1995 cm³ · 110 kW"]},
+    "220": {"hybrid":["220d CoupÃ© · 1995 cm³ · 140 kW","220i Active Tourer · 1499 cm³ · 115 kW"],"petrol":["220i CoupÃ© · 1998 cm³ · 135 kW","220i Gran CoupÃ© · 1998 cm³ · 131 kW"]},
+    "225": {"plugInHybrid":["225e xDrive Active Tourer · 1499 cm³ · 100 kW"]},
+    "235": {"petrol":["M235i xDrive Gran CoupÃ© · 1998 cm³ · 225 kW"]},
+    "240": {"petrol":["M240i xDrive CoupÃ© · 2998 cm³ · 275 kW"]},
+    "316": {"hybrid":["316d Touring · 1995 cm³ · 90 kW"]},
+    "318": {"hybrid":["318d Touring · 1995 cm³ · 100 kW","318d Touring · 1995 cm³ · 110 kW"],"petrol":["318i Touring · 1998 cm³ · 115 kW"]},
+    "320": {"hybrid":["320d Touring · 1995 cm³ · 140 kW","320d xDrive Touring · 1995 cm³ · 140 kW"],"plugInHybrid":["320e Touring · 1998 cm³ · 120 kW","320e xDrive Touring · 1998 cm³ · 120 kW"]},
+    "330": {"hybrid":["330d xDrive Touring · 2993 cm³ · 210 kW"],"plugInHybrid":["330e Touring · 1998 cm³ · 135 kW","330e xDrive Touring · 1998 cm³ · 135 kW"]},
+    "340": {"hybrid":["M340d xDrive Touring · 2993 cm³ · 250 kW","M340i xDrive Touring · 2998 cm³ · 275 kW"]},
+    "420": {"petrol":["420i Cabriolet · 1998 cm³ · 135 kW","420i Coupe · 1998 cm³ · 135 kW","420i Gran Coupe · 1998 cm³ · 135 kW"],"hybrid":["420d Cabriolet · 1995 cm³ · 140 kW","420d Coupe · 1995 cm³ · 140 kW","420d Gran Coupe · 1995 cm³ · 140 kW","420d xDrive Coupe · 1995 cm³ · 140 kW","420d xDrive Gran Coupe · 1995 cm³ · 140 kW"]},
+    "430": {"hybrid":["430d 48v Cabriolet · 2993 cm³ · 210 kW","430d xDrive Coupe · 2993 cm³ · 210 kW"]},
+    "440": {"hybrid":["M440d xDrive Cabriolet · 2993 cm³ · 250 kW","M440d xDrive Coupe · 2993 cm³ · 250 kW","M440i xDrive Cabriolet · 2998 cm³ · 275 kW","M440i xDrive Coupe · 2998 cm³ · 275 kW","M440i xDrive Gran Coupe · 2998 cm³ · 275 kW"]},
+    "518": {"hybrid":["518d Touring · 1995 cm³ · 100 kW","518d Touring · 1995 cm³ · 110 kW"]},
+    "520": {"hybrid":["520d Touring · 1995 cm³ · 140 kW","520d xDrive Touring · 1995 cm³ · 140 kW","520i Touring · 1998 cm³ · 135 kW"]},
+    "530": {"plugInHybrid":["530e Touring · 1998 cm³ · 135 kW","530e xDrive Touring · 1998 cm³ · 135 kW"],"hybrid":["530d xDrive Touring · 2993 cm³ · 210 kW"]},
+    "540": {"hybrid":["540d xDrive Touring · 2993 cm³ · 250 kW"]},
+    "840": {"hybrid":["840d xDrive Cabriolet · 2993 cm³ · 250 kW","840d xDrive CoupÃ© · 2993 cm³ · 250 kW","840d xDrive Gran CoupÃ© · 2993 cm³ · 250 kW"],"petrol":["840i xDrive Cabriolet · 2998 cm³ · 245 kW","840i xDrive CoupÃ© · 2998 cm³ · 245 kW","840i xDrive Gran CoupÃ© · 2998 cm³ · 245 kW"]},
+    "850": {"petrol":["M850i xDrive CoupÃ© · 4395 cm³ · 390 kW","M850i xDrive Gran CoupÃ© · 4395 cm³ · 390 kW"]},
+    "iX": {"electric":["iX M60","iX xDrive40","iX xDrive50"]},
+    "iX3": {"electric":["iX3"]},
+    "M3": {"petrol":["M3 Competition M xDrive · 2993 cm³ · 375 kW","M3 Competition · 2993 cm³ · 375 kW"]},
+    "M4": {"petrol":["M4 Competition CoupÃ© · 2993 cm³ · 375 kW","M4 Competition M xDrive Cabriolet · 2993 cm³ · 375 kW","M4 Competition M xDrive CoupÃ© · 2993 cm³ · 375 kW"]},
+    "M8": {"petrol":["M8 Competition Cabriolet · 4395 cm³ · 460 kW","M8 Competition CoupÃ© · 4395 cm³ · 460 kW","M8 Competition Gran CoupÃ© · 4395 cm³ · 460 kW"]},
+    "X1": {"hybrid":["X1 xDrive23d · 1995 cm³ · 145 kW","X1 xDrive23i · 1998 cm³ · 150 kW"],"petrol":["X1 sDrive18i · 1499 cm³ · 100 kW"],"diesel":["X1 sDrive18d · 1995 cm³ · 110 kW"]},
+    "X2": {"diesel":["X2 sDrive16d · 1496 cm³ · 85 kW","X2 sDrive18d · 1995 cm³ · 110 kW","X2 xDrive18d · 1995 cm³ · 110 kW","X2 xDrive20d · 1995 cm³ · 140 kW"],"petrol":["X2 M35i · 1998 cm³ · 225 kW","X2 sDrive18i · 1499 cm³ · 100 kW","X2 sDrive20i · 1998 cm³ · 131 kW"]},
+    "X3": {"hybrid":["X3 M40d · 2993 cm³ · 250 kW","X3 M40i · 2998 cm³ · 265 kW","X3 xDrive18d · 1995 cm³ · 110 kW","X3 xDrive20d · 1995 cm³ · 140 kW","X3 xDrive20i · 1998 cm³ · 135 kW","X3 xDrive30d · 2993 cm³ · 210 kW"],"petrol":["X3 M Competition · 2993 cm³ · 375 kW"]},
+    "X4": {"hybrid":["X4 M40d · 2993 cm³ · 250 kW","X4 M40i · 2998 cm³ · 265 kW","X4 xDrive20d · 1995 cm³ · 140 kW","X4 xDrive30d · 2993 cm³ · 210 kW","X4 xDrive30i · 1998 cm³ · 180 kW"],"petrol":["X4 M CompÃ©tition · 2993 cm³ · 375 kW"]},
+    "Z4": {"petrol":["Z4 sDrive20i · 1998 cm³ · 145 kW"]}
+  },
+  "Citroen": {
+    "Berlingo": {"electric":["e-BERLINGO M (57Kw)","e-BERLINGO XL (57Kw)"],"diesel":["BERLINGO M (130ch) · 1499 cm³ · 96 kW"]},
+    "C3": {"petrol":["C3 (110ch) · 1199 cm³ · 81 kW","C3 (83ch) · 1199 cm³ · 61 kW"],"diesel":["C3 (102ch) · 1499 cm³ · 75 kW"]},
+    "C3 Aircross": {"diesel":["C3 AIRCROSS (120ch) · 1499 cm³ · 88 kW"]},
+    "C4": {"electric":["e-C4 (57Kw)"],"diesel":["C4 (110ch) · 1499 cm³ · 81 kW"]},
+    "C4X": {"diesel":["C4 X (130ch) · 1499 cm³ · 96 kW"],"electric":["e-C4 X (57Kw)"]},
+    "C5 Aircross": {"plugInHybrid":["C5 AIRCROSS (181ch+30Kw) · 1598 cm³ · 133 kW"]},
+    "C5X": {"petrol":["C5 X (181ch) · 1598 cm³ · 133 kW"]},
+    "Spacetourer": {"electric":["e-SPACE TOURER M (57Kw)","e-SPACE TOURER XL (57Kw)"]}
+  },
+  "Cupra": {
+    "Formentor": {"petrol":["CUPRA FORMENTOR 2.0 TSI (190ch) DSG7 4DRIVE · 1984 cm³ · 140 kW","CUPRA FORMENTOR 2.0 TSI (245ch) DSG7 · 1984 cm³ · 180 kW"]}
+  },
+  "Dacia": {
+    "Jogger": {"lpg":["JOGGER (101ch) · 999 cm³ · 67 kW","JOGGER (101ch) · 999 cm³ · 74 kW","JOGGER (110ch) · 999 cm³ · 81 kW"],"petrol":["JOGGER (110ch) · 999 cm³ · 81 kW"]},
+    "Lodgy": {"diesel":["LODGY (115ch) · 1461 cm³ · 85 kW"]},
+    "Sandero": {"petrol":["SANDERO (67ch) · 999 cm³ · 49 kW","SANDERO (91ch) · 999 cm³ · 67 kW"],"lpg":["SANDERO (101ch) · 999 cm³ · 67 kW","SANDERO (101ch) · 999 cm³ · 74 kW"]},
+    "Spring": {"electric":["SPRING (19Kw)"]}
+  },
+  "DS": {
+    "DS 3 Crossback": {"diesel":["3 CROSSBACK (130ch) · 1499 cm³ · 96 kW"],"electric":["3 CROSSBACK E-TENSE (57Kw)"]},
+    "DS 4": {"petrol":["4 (181ch) · 1598 cm³ · 133 kW"]},
+    "DS 7 Crossback": {"plugInHybrid":["7 CROSSBACK (181ch+30Kw) · 1598 cm³ · 133 kW"]},
+    "DS 9": {"petrol":["9 (224ch) · 1598 cm³ · 165 kW"],"plugInHybrid":["9 (181ch+30Kw) · 1598 cm³ · 133 kW","9 (200ch+30Kw) · 1598 cm³ · 147 kW"]}
+  },
+  "Ferrari": {
+    "812": {"petrol":["812 Competizione · 6496 cm³ · 607 kW","812 GTS · 6496 cm³ · 585 kW"]},
+    "F8": {"petrol":["F8 Spider · 3902 cm³ · 530 kW","F8 Tributo · 3902 cm³ · 530 kW"]},
+    "MONZA": {"petrol":["MONZA SP1 · 6496 cm³ · 592 kW","MONZA SP2 · 6496 cm³ · 592 kW"]}
+  },
+  "Fiat": {
+    "500": {"hybrid":["500 Hybrid 1.0 BSG (70ch) · 999 cm³ · 51.5 kW"],"electric":["500e 3+1 Ã©lectrique 42 kWh","500e berline Ã©lectrique 23.8 kWh","500e berline Ã©lectrique 42 kWh","500e cabriolet Ã©lectrique 23.8 kWh","500e cabriolet Ã©lectrique 42 kWh"]},
+    "Panda": {"hybrid":["PANDA 1.0 BSG (70ch) · 999 cm³ · 51.5 kW"]}
+  },
+  "Ford": {
+    "EcoSport": {"petrol":["ECOSPORT 1.0 EcoBoost (125ch) S&S BVM6 sans roue de secours · 998 cm³ · 92 kW","ECOSPORT 1.0 EcoBoost (125ch) S&S BVM6 · 998 cm³ · 92 kW"]},
+    "Explorer": {"plugInHybrid":["EXPLORER 3.0l EcoBoost (457ch) PHEV BVA10 · 2956 cm³ · 267 kW"]},
+    "Fiesta": {"ethanol":["FIESTA 1.0 Flexifuel (95ch) S&S BVM6 · 999 cm³ · 69.9 kW"],"hybrid":["FIESTA 1.0 Ecoboost Hybrid (125ch) S&S (mHEV) Powershift · 999 cm³ · 91.9 kW"],"petrol":["FIESTA 1.1 (75ch) S&S BVM5 · 1084 cm³ · 55.1 kW","FIESTA 1.5 Ecoboost (200ch) S&S BVM6 · 1496 cm³ · 147 kW"]},
+    "Focus": {"hybrid":["FOCUS 1.0 EcoBoost Hybrid (125ch) mHEV BVM6 5P · 999 cm³ · 91.9 kW"]},
+    "Galaxy": {"hybrid":["GALAXY 2.5 Duratec (190ch) Hybrid eCVT · 2488 cm³ · 110 kW"]},
+    "GT": {"petrol":["GT 3.5 EcoBoost BVA7 · 3496 cm³ · 463 kW"]},
+    "Kuga": {"hybrid":["KUGA 2.5 Duratec I-AWD Hybrid (190ch) · 2488 cm³ · 112 kW"],"plugInHybrid":["KUGA 2.5L Duratec (225ch) Hybride Rechargeable (PHEV) Powershift · 2488 cm³ · 112 kW"]},
+    "Mustang": {"petrol":["MUSTANG Fastback 5.0 V8 - BVA · 5038 cm³ · 330 kW"]},
+    "S-Max": {"hybrid":["S-MAX 2.5 Duratec (190ch) Hybrid eCVT · 2488 cm³ · 110 kW"]},
+    "Tourneo Connect": {"diesel":["TOURNEO CONNECT 2.0 EcoBlue (102ch) BVM6 · 1968 cm³ · 75 kW","TOURNEO CONNECT 2.0 EcoBlue (122ch) BVA7 · 1968 cm³ · 90 kW","TOURNEO CONNECT 2.0 EcoBlue (122ch) BVM6 · 1968 cm³ · 90 kW"],"petrol":["TOURNEO CONNECT 1.5 EcoBoost (114ch) BVA7 · 1498 cm³ · 84 kW","TOURNEO CONNECT 1.5 EcoBoost (114ch) BVM6 · 1498 cm³ · 84 kW"]},
+    "Transit Custom": {"diesel":["TRANSIT CUSTOM 2.0 EcoBlue (105ch) BVM6 · 1995 cm³ · 77.3 kW","TRANSIT CUSTOM 2.0 EcoBlue (130ch) BVA6 · 1995 cm³ · 95.6 kW","TRANSIT CUSTOM 2.0 EcoBlue (130ch) BVM6 · 1995 cm³ · 95.6 kW","TRANSIT CUSTOM 2.0 Ecoblue (170ch) BVA6 · 1995 cm³ · 125 kW","TRANSIT CUSTOM 2.0 Ecoblue (170ch) BVM6 · 1995 cm³ · 125 kW"],"hybrid":["TRANSIT CUSTOM 2.0 EcoBlue Hybrid (105ch) BVM6 · 1995 cm³ · 77.3 kW","TRANSIT CUSTOM 2.0 EcoBlue Hybrid (130ch) BVM6 · 1995 cm³ · 95.6 kW","TRANSIT CUSTOM 2.0 Ecoblue Hybrid (170ch) BVM6 · 1995 cm³ · 125 kW"]}
+  },
+  "Honda": {
+    "Civic": {"hybrid":["CIVIC (143ch+65Kw) · 1993 cm³ · 105 kW"]},
+    "Cr-v": {"hybrid":["CR-V (145ch+65Kw) · 1993 cm³ · 107 kW"]},
+    "e": {"electric":["E (60Kw)"]},
+    "Hr-v": {"hybrid":["HR-V (107ch+48Kw) · 1498 cm³ · 79 kW"]},
+    "Jazz": {"hybrid":["JAZZ (98ch+40Kw) · 1498 cm³ · 72 kW"]}
+  },
+  "Hyundai": {
+    "I10": {"petrol":["Nouvelle i10 1.0 (100ch) N Line · 998 cm³ · 73.6 kW","Nouvelle i10 1.0 BVR 4PL · 998 cm³ · 49.3 kW","Nouvelle i10 1.0 ECO 4PL · 998 cm³ · 49.3 kW","Nouvelle i10 1.2 (84ch) N Line · 1197 cm³ · 61.8 kW"]},
+    "I30": {"hybrid":["i30 Fastback T-GDi (160ch) DCT 48V N Line · 1482 cm³ · 117.5 kW","i30 SW FL T-GDi (120ch) DCT 48V N Line · 998 cm³ · 88.3 kW","i30 SW T-GDi (120ch) iBVM 48V Creative · 998 cm³ · 88.3 kW","i30 T-GDi (120ch) DCT 48V N Line · 998 cm³ · 88.3 kW","i30 T-GDi (120ch) iBVM 48V Creative · 998 cm³ · 88.3 kW","i30 T-GDi (120ch) iBVM 48V Intuitive · 998 cm³ · 88.3 kW","i30 T-GDi (120ch) iBVM 48V N Line · 998 cm³ · 88.3 kW"]},
+    "Santa fe": {"hybrid":["SANTA FE 1.6 T-GDi Hybrid (230ch) BVA6 Creative · 1598 cm³ · 132.2 kW","SANTA FE 1.6 T-GDi Hybrid (230ch) BVA6 Executive · 1598 cm³ · 132.2 kW","SANTA FE 1.6 T-GDi Hybrid (230ch) BVA6 Intuitive · 1598 cm³ · 132.2 kW"],"plugInHybrid":["SANTA FE 1.6 T-GDi Plug-in (265ch) HTRAC · 1598 cm³ · 132.2 kW"]},
+    "Tucson": {"hybrid":["TUCSON CRDi 136 DCT-7 Hybrid 48V Business · 1598 cm³ · 100 kW","TUCSON CRDi 136 DCT-7 Hybrid 48V CrÃ©ative/Executive · 1598 cm³ · 100 kW","TUCSON CRDi 136 DCT-7 Hybrid 48V N Line Executive · 1598 cm³ · 100 kW","TUCSON CRDi 136 HTRAC DCT-7 Hybrid 48V CrÃ©ative/Executive · 1598 cm³ · 100 kW","TUCSON CRDi 136 iBVM Hybrid 48V Business · 1598 cm³ · 100 kW","TUCSON CRDi 136 iBVM Hybrid 48V Creative · 1598 cm³ · 100 kW","TUCSON CRDi 136 iBVM Hybrid 48V CrÃ©ative · 1598 cm³ · 100 kW","TUCSON Hybrid 230 CrÃ©ative/Executive · 1598 cm³ · 132.4 kW","TUCSON Hybrid 230 Intuitive/Business · 1598 cm³ · 132.4 kW","TUCSON Hybrid 230 N Line Executive · 1598 cm³ · 132.4 kW","TUCSON T-GDi 150 DCT-7 Hybrid 48V Crea/Exec · 1598 cm³ · 110.1 kW","TUCSON T-GDi 150 DCT-7 Hybrid 48V N Line Executive · 1598 cm³ · 110.1 kW","TUCSON T-GDi 150 iBVM Hybrid 48V CrÃ©ative · 1598 cm³ · 110.1 kW","TUCSON T-GDi 150 iBVM Hybrid 48V Intuitive · 1598 cm³ · 110.1 kW"],"plugInHybrid":["TUCSON Plug-in 265 HTRAC Busin/CrÃ©a/Exec · 1598 cm³ · 132.4 kW","TUCSON Plug-in 265 HTRAC N Line Executive · 1598 cm³ · 132.4 kW"]}
+  },
+  "Jeep": {
+    "Compass": {"plugInHybrid":["1.3 Turbo T4 (190ch) BVA6 4xe Longitude Business/Limited/Night Eagle / S · 1332 cm³ · 96 kW","1.3 Turbo T4 (240ch) BVA6 4xe Upland / Trailhawk / S · 1332 cm³ · 132 kW"],"hybrid":["1.5 Turbo T4 (130ch) BVR7 Longitude/Longitude Business/Night Eagle/Limited/High Altitude/S · 1469 cm³ · 96 kW"]},
+    "Renegade": {"plugInHybrid":["1.3 Turbo T4 (190ch) BVA6 4xe Limited / S · 1332 cm³ · 96 kW","1.3 Turbo T4 (240ch) BVA6 4xe Trailhawk / Upland / S · 1332 cm³ · 132 kW"],"hybrid":["1.5 Turbo T4 (130ch) BVR7 Longitude/Limited/High Altitude/S · 1469 cm³ · 96 kW"]}
+  },
+  "Kia": {
+    "Ceed": {"plugInHybrid":["CEED SW 1.6 essence GDi (105ch) ISG / Electrique (60.5ch) DCT6 SystÃ¨me hybride rechargeable (141ch) · 1580 cm³ · 77.2 kW"],"hybrid":["CEED 1.6 Diesel CRDi (136ch) ISG MHEV DCT7 · 1598 cm³ · 100 kW","CEED 1.6 Diesel CRDi (136ch) ISG MHEV iBVM6 · 1598 cm³ · 100 kW","CEED SW 1.6 Diesel CRDi (136ch) ISG MHEV DCT7 · 1598 cm³ · 100 kW"],"petrol":["CEED 1.5 essence T-GDi (160ch) ISG BVM6 · 1482 cm³ · 117.5 kW","CEED 1.5 essence T-GDi (160ch) ISG DCT7 · 1482 cm³ · 117.5 kW","CEED SW 1.5 essence T-GDi (160ch) ISG BVM6 · 1482 cm³ · 117.5 kW","CEED SW 1.5 essence T-GDi (160ch) ISG DCT7 · 1482 cm³ · 117.5 kW"]},
+    "EV6": {"electric":["EV6 Moteur Ã©lectrique 125kW (170ch)","EV6 Moteur Ã©lectrique 168kW (229ch)","EV6 Moteur Ã©lectrique 168kW (229ch) - Pack Style","EV6 Moteur Ã©lectrique 239kW (325ch)","EV6 Moteur Ã©lectrique 239kW (325ch) - Pack Style","EV6 Moteur Ã©lectrique 430kW (585ch)"]},
+    "Niro": {"plugInHybrid":["NIRO PHEV 1.6 essence GDi (105ch) ISG / Electrique (60.5ch) DCT6 Syst. hybride rechargeable (141ch) · 1580 cm³ · 77.2 kW","Niro PHEV 1.6 essence Gdi (105ch) ISG / Electrique (83ch) DCT6 Syst. Hybride rechargeable (183ch) · 1580 cm³ · 77.2 kW"],"hybrid":["NIRO HEV 1.6 essence GDi (105ch) ISG / Electrique (60.5ch) DCT6 SystÃ¨me hybride (141ch) · 1580 cm³ · 77.2 kW","Niro HEV 1.6 essence Gdi (105ch) ISG / Electrique (60.5ch) DCT6 SystÃ¨me hybride (141ch) · 1580 cm³ · 77.2 kW"],"electric":["Niro EV Moteur Ã©lectrique (204ch)","e-NIRO Moteur Ã©lectrique (136ch)","e-NIRO Moteur Ã©lectrique (204ch)"]},
+    "Picanto": {"petrol":["PICANTO 1.0 essence DPi (67ch) ISG BVM5 · 998 cm³ · 49.3 kW","PICANTO 1.0 essence T-GDi (100ch) ISG BVM5 · 998 cm³ · 73.6 kW","PICANTO 1.2 essence DPi (84ch) ISG BVM5 · 1197 cm³ · 61.8 kW","PICANTO 1.2 essence DPi (84ch) ISG BVMA5 · 1197 cm³ · 61.8 kW"]},
+    "Pro ceed": {"petrol":["PROCEED 1.5 essence T-GDi (160ch) ISG BVM6 · 1482 cm³ · 117.5 kW","PROCEED GT 1.6 essence T-GDi (204ch) ISG DCT7 · 1591 cm³ · 150 kW"]},
+    "Rio": {"petrol":["RIO 1.0 essence T-GDi (100ch) ISG BVM6 · 998 cm³ · 73.5 kW","RIO 1.0 essence T-GDi (100ch) ISG DCT7 · 998 cm³ · 73.5 kW","RIO 1.2 essence DPi (84ch) ISG BVM5 · 1197 cm³ · 61.8 kW"],"hybrid":["RIO 1.0 essence T-GDi (100ch) MHEV iBVM6 · 998 cm³ · 73.5 kW","RIO 1.0 essence T-GDi (120ch) MHEV DCT7 · 998 cm³ · 88.3 kW","RIO 1.0 essence T-GDi (120ch) MHEV iBVM6 · 998 cm³ · 88.3 kW"]},
+    "Sorento": {"plugInHybrid":["SORENTO 1.6T-GDi (180ch) / Electrique (91ch) BVA6 4x4 SystÃ¨me hybride rechargeable (265ch) - 5PL · 1598 cm³ · 132.2 kW","SORENTO 1.6T-GDi (180ch) / Electrique (91ch) BVA6 4x4 SystÃ¨me hybride rechargeable (265ch) - 7PL · 1598 cm³ · 132.2 kW"],"hybrid":["SORENTO 1.6T-GDi (180ch) / Electrique (60ch) BVA6 4x2 SystÃ¨me hybride (230ch) - 5PL 17'' · 1598 cm³ · 132.2 kW","SORENTO 1.6T-GDi (180ch) / Electrique (60ch) BVA6 4x2 SystÃ¨me hybride (230ch) - 5PL 19'' · 1598 cm³ · 132.2 kW","SORENTO 1.6T-GDi (180ch) / Electrique (60ch) BVA6 4x2 SystÃ¨me hybride (230ch) - 7PL 19'' · 1598 cm³ · 132.2 kW"]},
+    "Soul": {"electric":["e-Soul Moteur Ã©lectrique (204ch)"]},
+    "Sportage": {"plugInHybrid":["SPORTAGE 1.6T-GDi (180ch) / Electrique (60ch) BVA6 4x4 SystÃ¨me hybride (230ch) · 1598 cm³ · 132.4 kW","Sportage GTL Premium PHEV 252 4WD ECS BITON MY25 · 1598 cm³ · 132.4 kW"],"hybrid":["SPORTAGE 1.6 Diesel CRDi (136ch) ISG MHEV DCT7 4x4 · 1598 cm³ · 100 kW","SPORTAGE 1.6 Diesel CRDi (136ch) ISG MHEV DCT7 · 1598 cm³ · 100 kW","SPORTAGE 1.6 essence T-GDi (150ch) MHEV iBVM6 · 1598 cm³ · 110.1 kW","SPORTAGE 1.6T-GDi (180ch) / Electrique (60ch) BVA6 4x2 SystÃ¨me hybride (230ch) · 1598 cm³ · 132.4 kW","SPORTAGE 1.6T-GDi (180ch) / Electrique (60ch) BVA6 4x4 SystÃ¨me hybride (230ch) · 1598 cm³ · 132.4 kW","Sportage 30 Years HEV 215 MY25 · 1598 cm³ · 132.4 kW","Sportage Active 136 DCT 4WD · 1598 cm³ · 100 kW","Sportage Active HEV 215 4WD MY25 · 1598 cm³ · 132.4 kW","Sportage Active HEV 215 MY25 · 1598 cm³ · 132.4 kW","Sportage Design HEV 215 4WD · 1598 cm³ · 132.4 kW","Sportage GT-line Premium HEV 215 4WD BITON MY25 · 1598 cm³ · 132.4 kW","Sportage GT-line Premium HEV 215 ECS MY25 · 1598 cm³ · 132.4 kW","Sportage GTL PREM 136 DCT 4WD · 1598 cm³ · 100 kW"]},
+    "Stonic": {"hybrid":["STONIC 1.0 essence T-GDi (120ch) MHEV DCT7 Active · 998 cm³ · 88.3 kW","STONIC 1.0 essence T-GDi (120ch) MHEV DCT7 GT-line Premium · 998 cm³ · 88.3 kW","STONIC 1.0 essence T-GDi (120ch) MHEV DCT7 GT-line · 998 cm³ · 88.3 kW","STONIC 1.0 essence T-GDi (120ch) MHEV iBVM6 Active · 998 cm³ · 88.3 kW","STONIC 1.0 essence T-GDi (120ch) MHEV iBVM6 GT-line Premium · 998 cm³ · 88.3 kW","STONIC 1.0 essence T-GDi (120ch) MHEV iBVM6 GT-line · 998 cm³ · 88.3 kW"],"petrol":["STONIC 1.0 essence T-GDi (100ch) BVM6 GT-line Premium · 998 cm³ · 73.5 kW","STONIC 1.0 essence T-GDi (100ch) BVM6 GT-line · 998 cm³ · 73.5 kW","STONIC 1.0 essence T-GDi (100ch) BVM6 Motion/Active/Blue Edition · 998 cm³ · 73.5 kW","STONIC 1.0 essence T-GDi (100ch) DCT7 Active · 998 cm³ · 73.5 kW","STONIC 1.0 essence T-GDi (100ch) DCT7 GT-line Premium · 998 cm³ · 73.5 kW","STONIC 1.0 essence T-GDi (100ch) DCT7 GT-line · 998 cm³ · 73.5 kW"]},
+    "XCeed": {"petrol":["XCEED 1.0 essence T-GDi (120ch) ISG BVM6 · 998 cm³ · 88.3 kW","XCEED 1.6 Essence T-GDi (160ch) ISG BVM6 · 1482 cm³ · 117.5 kW","XCEED 1.6 Essence T-GDi (160ch) ISG DCT7 · 1482 cm³ · 117.5 kW"],"hybrid":["XCEED 1.6 Diesel CRDi (136ch) ISG MHEV DCT7 · 1598 cm³ · 100 kW","XCEED 1.6 Diesel CRDi (136ch) ISG MHEV iBVM6 · 1598 cm³ · 100 kW"],"plugInHybrid":["XCEED 1.6 essence GDi (105ch) ISG / Electrique (60.5ch) DCT6 SystÃ¨me hybride rechargeable (141ch) · 1580 cm³ · 77.2 kW"]}
+  },
+  "Lamborghini": {
+    "Aventador": {"petrol":["AVENTADOR SVJ Coupe · 6498 cm³ · 566 kW","Aventador Ultimae CoupÃ¨ · 6498 cm³ · 574 kW","Aventador Ultimae Roadster · 6498 cm³ · 574 kW"],"hybrid":["Aventador Countach · 6498 cm³ · 574 kW"]},
+    "Urus": {"petrol":["URUS · 3996 cm³ · 478 kW"]}
+  },
+  "Land Rover": {
+    "Defender": {"plugInHybrid":["DEFENDER 110 P400e HYBRIDE RECHARGEABLE PHEV 5 PL · 1997 cm³ · 221 kW"]}
+  },
+  "Lexus": {
+    "NX": {"hybrid":["NX 300h · 2494 cm³ · 114 kW"]},
+    "RX": {"hybrid":["RX 450h · 3456 cm³ · 193 kW","RX 450hL · 3456 cm³ · 193 kW"]}
+  },
+  "Maserati": {
+    "Ghibli": {"hybrid":["GHIBLI HYBRID (330ch+8Kw) · 1995 cm³ · 243 kW"]},
+    "Grecale": {"hybrid":["GRECALE GT (300ch+8Kw) · 1995 cm³ · 221 kW"],"petrol":["GRECALE TROFEO (530ch) · 2992 cm³ · 390 kW"]}
+  },
+  "Mazda": {
+    "CX-5": {"diesel":["CX-5 (AM 2023) SKYACTIV-D (150ch) BVA (JANTES 19\") · 2191 cm³ · 110 kW","CX-5 (AM 2023) SKYACTIV-D (184ch) BVA 4x2 (JANTES 19\") · 2191 cm³ · 135 kW","CX-5 (AM 2023) SKYACTIV-D (184ch) BVA 4x4 (JANTES 19\") · 2191 cm³ · 135 kW"]},
+    "CX-60": {"plugInHybrid":["CX-60 (AM 2022 & 2023) e-SKYACTIV PHEV (327ch) (JANTES 18'') · 2488 cm³ · 141 kW","CX-60 (AM 2022 & 2023) e-SKYACTIV PHEV (327ch) (JANTES 20'') · 2488 cm³ · 141 kW"]},
+    "MX-30": {"electric":["MX-30 e-SKYACTIV (145ch)"]}
+  },
+  "Mercedes-Benz": {
+    "E 200": {"hybrid":["E 220 d 4MATIC All-Terrain · 1993 cm³ · 147 kW","E 220 d · 1993 cm³ · 147 kW"]},
+    "E 300": {"plugInHybrid":["E 300 de · 1950 cm³ · 143 kW","E 300 e · 1991 cm³ · 155 kW"]},
+    "E 400": {"diesel":["E 400 d 4MATIC · 2925 cm³ · 243 kW"]},
+    "E 53 AMG": {"hybrid":["AMG E 53 4MATIC+ · 2999 cm³ · 320 kW"]},
+    "EQA 250": {"electric":["EQA 250+"]},
+    "EQA 350": {"electric":["EQA 350 4MATIC"]},
+    "EQB 350": {"electric":["EQB 350 4MATIC"]}
+  },
+  "Mg": {
+    "MARVEL": {"electric":["MARVEL R 2WD","MARVEL R 4WD"]},
+    "Zs": {"petrol":["ZS - 1.0L T-GDI (111ch) BVM6 · 999 cm³ · 82 kW","ZS - 1.5L VTI-Tech (106ch) BVM5 · 1498 cm³ · 78 kW"]}
+  },
+  "Mini": {
+    "CABRIO": {"petrol":["MINI Cooper Cabrio (F57) · 1499 cm³ · 100 kW","MINI Cooper S Cabrio (F57) · 1998 cm³ · 131 kW","MINI John Cooper Works Cabrio (F57) · 1998 cm³ · 170 kW","MINI One Cabrio (F57) · 1499 cm³ · 75 kW"]},
+    "Clubman": {"petrol":["MINI Cooper S Clubman (F54) · 1998 cm³ · 131 kW","MINI One Clubman (F54) · 1499 cm³ · 75 kW"]},
+    "Countryman": {"petrol":["MINI Cooper ALL4 Countryman (F60) · 1499 cm³ · 100 kW","MINI Cooper Countryman (F60) · 1499 cm³ · 100 kW","MINI Cooper S Countryman (F60) · 1998 cm³ · 131 kW","MINI John Cooper Works ALL4 Countryman (F60) · 1998 cm³ · 225 kW","MINI One Countryman (F60) · 1499 cm³ · 75 kW"],"diesel":["MINI Cooper D ALL4 Countryman (F60) · 1995 cm³ · 110 kW","MINI Cooper D Countryman (F60) · 1995 cm³ · 110 kW","MINI Cooper SD ALL4 Countryman (F60) · 1995 cm³ · 140 kW","MINI Cooper SD Countryman (F60) · 1995 cm³ · 140 kW","MINI One D Countryman (F60) · 1496 cm³ · 85 kW"]},
+    "MINI": {"petrol":["MINI Cooper Hatch 3P (F56) · 1499 cm³ · 100 kW","MINI Cooper Hatch 5P (F55) · 1499 cm³ · 100 kW","MINI Cooper S Hatch 3P (F56) · 1998 cm³ · 131 kW","MINI Cooper S Hatch 5P (F55) · 1998 cm³ · 131 kW","MINI John Cooper Works Hatch 3P (F56) · 1998 cm³ · 170 kW","MINI One 102 Hatch 3P (F56) · 1499 cm³ · 75 kW","MINI One 102 Hatch 5P (F55) · 1499 cm³ · 75 kW","MINI One 75 Hatch 3P (F56) · 1499 cm³ · 55 kW","MINI One 75 Hatch 5P (F55) · 1499 cm³ · 55 kW"],"electric":["MINI Cooper SE Hatch 3P (F56)"]}
+  },
+  "Mitsubishi": {
+    "Space star": {"petrol":["SPACE STAR 1.2 MIVEC (71ch) AS&G IN & INVITE (MY23/MY24) · 1193 cm³ · 52 kW","SPACE STAR 1.2 MIVEC (71ch) AS&G INTENSE(MY23/MY24) · 1193 cm³ · 52 kW","SPACE STAR 1.2 MIVEC (71ch) AS&G RED LINE EDITION (MY23/MY24) · 1193 cm³ · 52 kW","SPACE STAR 1.2 MIVEC (71ch) CVT AS&G INTENSE (MY23/MY24) · 1193 cm³ · 52 kW","SPACE STAR 1.2 MIVEC (71ch) CVT AS&G RED LINE EDITION (MY23/MY24) · 1193 cm³ · 52 kW"]}
+  },
+  "Nissan": {
+    "Ariya": {"electric":["63kWhÂ  ENGAGEÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â","87kWhÂ ENGAGEÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â"]},
+    "Juke": {"petrol":["DIG-T (114ch) BVMÂ  N-CONNECTA. BUSINESS+. TEKNA (opt 19''). N-DESIGN (opt 19'') · 999 cm³ · 84 kW","DIG-T (114ch) BVMÂ  VISIA. ACENTA. BUSINESS EDITION · 999 cm³ · 84 kW","DIG-T (114ch) DCT ACENTA. BUSINESS EDITION · 999 cm³ · 84 kW","DIG-T (114ch) DCTÂ  N-CONNECTA. BUSINESS+. TEKNA (opt 19''). N-DESIGN (opt 19'') · 999 cm³ · 84 kW"]},
+    "Leaf": {"electric":["LEAF 40kWh","LEAF 62kWh"]},
+    "Micra": {"petrol":["MICRA IG-T (92ch) BM5 Stop&Start ACENTA/TEKNA/BUSINESS EDITION/ENIGMA EURO 6d Full · 999 cm³ · 68 kW","MICRA IG-T (92ch) BM5 Stop&Start VISIA PACK EURO 6d Full · 999 cm³ · 68 kW","MICRA IG-T (92ch) XTRONIC Stop&Start ACENTA/TEKNA/BUSINESS EDITION/ENIGMA EURO 6d Full · 999 cm³ · 68 kW"]},
+    "PRIMASTAR": {"diesel":["2L dCi (145ch) BVA6 L2H1 9PL Euro6d-FULL · 1997 cm³ · 110 kW","2L dCi (145ch) BVM6 L2H1 9PL Euro6d-FULL · 1997 cm³ · 110 kW"]},
+    "Qashqai": {"hybrid":["Mild Hybrid (140ch) 6MT BUSINESS EDITION/N-CONNECTA/TEKNA · 1332 cm³ · 103 kW","Mild Hybrid (140ch) 6MT N-CONNECTA · 1332 cm³ · 103 kW","Mild Hybrid (140ch) 6MT N-CONNECTA/TEKNA · 1332 cm³ · 103 kW","Mild Hybrid (140ch) 6MT VISIA/ACENTA/BUSINESS EDITION/N-CONNECTA · 1332 cm³ · 103 kW"]},
+    "Townstar": {"petrol":["TOWNSTAR COMBI 1.3L (130ch) N-CONNECTA · 1332 cm³ · 96 kW"]}
+  },
+  "Opel": {
+    "Corsa": {"electric":["CORSA-E (57Kw)"],"petrol":["CORSA (101ch) · 1199 cm³ · 74 kW"]},
+    "Crossland X": {"petrol":["CROSSLAND X (130ch) · 1199 cm³ · 96 kW"],"diesel":["CROSSLAND X (110ch) · 1499 cm³ · 81 kW"]},
+    "Grandland": {"diesel":["GRANDLAND (130ch) · 1499 cm³ · 96 kW"]},
+    "Mokka": {"petrol":["MOKKA (130ch) · 1199 cm³ · 96 kW","MOKKA (136ch) · 1199 cm³ · 100 kW"],"electric":["MOKKA-E (57Kw)"]}
+  },
+  "Peugeot": {
+    "2008": {"diesel":["2008 (110ch) · 1499 cm³ · 81 kW","2008 (130ch) · 1499 cm³ · 96 kW"],"electric":["e-2008 (57Kw)"],"petrol":["2008 (130ch) · 1199 cm³ · 96 kW"]},
+    "208": {"petrol":["208 (101ch) · 1199 cm³ · 74 kW","208 (130ch) · 1199 cm³ · 96 kW","208 (75ch) · 1199 cm³ · 55 kW"],"electric":["e-208 (57Kw)"],"diesel":["208 (102ch) · 1499 cm³ · 75 kW"]},
+    "3008": {"plugInHybrid":["3008 (181ch+30Kw) · 1598 cm³ · 133 kW","3008 (200ch+63Kw) · 1598 cm³ · 147 kW"]},
+    "308": {"petrol":["308 (110ch) · 1199 cm³ · 81 kW","308 SW (110ch) · 1199 cm³ · 81 kW"],"diesel":["308 (130ch) · 1499 cm³ · 96 kW"]},
+    "508": {"petrol":["508 SW (130ch) · 1199 cm³ · 96 kW"],"plugInHybrid":["508 (181ch+30Kw) · 1598 cm³ · 133 kW","508 (200ch+63Kw) · 1598 cm³ · 147 kW","508 SW (181ch+30Kw) · 1598 cm³ · 133 kW","508 SW (200ch+63Kw) · 1598 cm³ · 147 kW"]},
+    "Rifter": {"diesel":["RIFTER Long (130ch) · 1499 cm³ · 96 kW","RIFTER Standard (102ch) · 1499 cm³ · 75 kW"],"electric":["e-RIFTER Standard (57Kw)"],"petrol":["RIFTER Long (110ch) · 1199 cm³ · 81 kW"]},
+    "TRAVELLER": {"electric":["e-TRAVELLER Long (57Kw)","e-TRAVELLER Standard (57Kw)"]}
+  },
+  "Porsche": {
+    "911": {"petrol":["911 CARRERA 4 GTS CABRIOLET · 2981 cm³ · 353 kW","911 CARRERA 4 GTS PDK · 2981 cm³ · 353 kW","911 CARRERA 4S CABRIOLET · 2981 cm³ · 331 kW","911 CARRERA 4S COUPE · 2981 cm³ · 331 kW","911 CARRERA CABRIOLET · 2981 cm³ · 283 kW","911 CARRERA GTS CABRIOLET · 2981 cm³ · 353 kW","911 CARRERA GTS PDK · 2981 cm³ · 353 kW","911 CARRERA GTS · 2981 cm³ · 353 kW","911 CARRERA S CABRIOLET · 2981 cm³ · 331 kW","911 CARRERA S COUPE · 2981 cm³ · 331 kW","911 CARRERA · 2981 cm³ · 283 kW","911 GT3 PACK TOURING · 3996 cm³ · 375 kW","911 GT3 · 3996 cm³ · 375 kW","911 TARGA 4 GTS PDK · 2981 cm³ · 353 kW","911 TARGA 4 · 2981 cm³ · 283 kW","911 TARGA 4S · 2981 cm³ · 331 kW","911 TURBO CABRIOLET · 3745 cm³ · 427 kW","911 TURBO COUPE · 3745 cm³ · 427 kW","911 TURBO S CABRIOLET · 3745 cm³ · 478 kW","911 TURBO S COUPE · 3745 cm³ · 478 kW"]},
+    "Macan": {"petrol":["MACAN GTS II · 2894 cm³ · 324 kW","MACAN II · 1984 cm³ · 195 kW","MACAN S II · 2894 cm³ · 280 kW","MACAN T II · 1984 cm³ · 195 kW"]},
+    "Panamera": {"plugInHybrid":["PANAMERA 4 E-HYBRID · 2894 cm³ · 243 kW","PANAMERA 4E-Hybrid SPORT TURISMO · 2894 cm³ · 243 kW","PANAMERA 4S E-Hybrid SPORT TURISMO · 2894 cm³ · 324 kW","PANAMERA 4S E-Hybrid · 2894 cm³ · 324 kW","PANAMERA TURBO S E-HYBRID · 3996 cm³ · 420 kW"]},
+    "Taycan": {"electric":["TAYCAN","TAYCAN 4 CROSS TURISMO","TAYCAN 4S","TAYCAN 4S CROSS TURISMO","TAYCAN 4S SPORT TURISMO","TAYCAN GTS","TAYCAN SPORT TURISMO","TAYCAN TURBO CROSS TURISMO","TAYCAN TURBO S","TAYCAN TURBO S CROSS TURISMO","TAYCAN TURBO S SPORT TURISMO"]}
+  },
+  "Renault": {
+    "Arkana": {"hybrid":["ARKANA (140ch+0Kw) · 1332 cm³ · 103 kW","ARKANA (158ch+0Kw) · 1332 cm³ · 116 kW","ARKANA (94ch+24Kw) · 1598 cm³ · 69 kW"]},
+    "Austral": {"hybrid":["AUSTRAL (140ch+0Kw) · 1332 cm³ · 103 kW"]},
+    "Captur": {"hybrid":["CAPTUR (140ch+0Kw) · 1332 cm³ · 103 kW","CAPTUR (158ch+0Kw) · 1332 cm³ · 116 kW","CAPTUR (94ch+24Kw) · 1598 cm³ · 69 kW"],"petrol":["CAPTUR (91ch) · 999 cm³ · 67 kW"],"plugInHybrid":["CAPTUR (92ch+31Kw) · 1598 cm³ · 68 kW"]},
+    "Clio": {"petrol":["CLIO (67ch) · 999 cm³ · 49 kW","CLIO (91ch) · 999 cm³ · 67 kW"],"diesel":["CLIO (101ch) · 1461 cm³ · 74 kW"],"hybrid":["CLIO (94ch+24Kw) · 1598 cm³ · 69 kW"],"lpg":["CLIO (101ch) · 999 cm³ · 67 kW","CLIO (101ch) · 999 cm³ · 74 kW"]},
+    "Espace": {"diesel":["ESPACE (189ch) · 1997 cm³ · 139 kW"]},
+    "Kangoo": {"petrol":["KANGOO (102ch) · 1332 cm³ · 75 kW","KANGOO (130ch) · 1332 cm³ · 96 kW"],"diesel":["KANGOO (115ch) · 1461 cm³ · 85 kW","KANGOO (95ch) · 1461 cm³ · 70 kW"],"lpg":["KANGOO (102ch) · 1332 cm³ · 75 kW"]},
+    "Koleos": {"petrol":["KOLEOS (158ch) · 1332 cm³ · 116 kW"]},
+    "Megane": {"petrol":["MEGANE Berline (140ch) · 1332 cm³ · 103 kW","MEGANE Berline (158ch) · 1332 cm³ · 116 kW","MEGANE Estate (140ch) · 1332 cm³ · 103 kW","MEGANE Estate (158ch) · 1332 cm³ · 116 kW"],"electric":["MEGANE (55Kw)"],"diesel":["MEGANE Berline (115ch) · 1461 cm³ · 85 kW","MEGANE Estate (115ch) · 1461 cm³ · 85 kW"],"plugInHybrid":["MEGANE Berline (94ch+31Kw) · 1598 cm³ · 69 kW","MEGANE Estate (91ch+31Kw) · 1598 cm³ · 67 kW"]},
+    "Scenic": {"petrol":["Grand SCENIC (140ch) · 1332 cm³ · 103 kW"]},
+    "Talisman": {"petrol":["TALISMAN (140ch) · 1332 cm³ · 103 kW","TALISMAN (158ch) · 1332 cm³ · 116 kW"],"diesel":["TALISMAN (160ch) · 1997 cm³ · 118 kW"]},
+    "TRAFIC": {"diesel":["TRAFIC (149ch) · 1997 cm³ · 110 kW","TRAFIC (170ch) · 1997 cm³ · 125 kW"]},
+    "Twingo": {"petrol":["TWINGO (65ch) · 999 cm³ · 48 kW"],"electric":["TWINGO (31Kw)"]},
+    "Zoe": {"electric":["ZOE (51Kw)"]}
+  },
+  "Rolls-Royce": {
+    "Cullinan": {"petrol":["CULLINAN · 6749 cm³ · 441 kW"]},
+    "Dawn": {"petrol":["DAWN · 6592 cm³ · 441 kW"]}
+  },
+  "Skoda": {
+    "Kamiq": {"petrol":["Kamiq 1.0 TSI (110ch) DSG7 Norme AP chÃ¢ssis classique Monte-Carlo clA Full LED et alt 140A famA · 999 cm³ · 81 kW","Kamiq 1.5 TSI (150ch) DSG7 Norme AP chÃ¢ssis classique clA avec Full LED et alt 140A famA · 1498 cm³ · 110 kW","Kamiq 1.5 TSI (150ch) DSG7 Norme AP chÃ¢ssis classique clB avec Full LED et alt 140A famB · 1498 cm³ · 110 kW"]},
+    "Karoq": {"petrol":["Karoq 1.0 TSI (110ch) 4*2 BVM6 norme AP freins 15'' Ambition Classe A avec alt 140A famA · 999 cm³ · 81 kW","Karoq 1.0 TSI (110ch) 4*2 BVM6 norme AP freins 15'' Ambition Classe C avec alt 140A famB · 999 cm³ · 81 kW","Karoq 1.5 TSI (150ch) 4*2 BVM6 norme AP freins 15'' Ambition Classe A avec alt 140A famA · 1498 cm³ · 110 kW","Karoq 1.5 TSI (150ch) 4*2 BVM6 norme AP freins 16'' Ambition clA Full LED et alt 140A famA · 1498 cm³ · 110 kW","Karoq 1.5 TSI (150ch) 4*2 BVM6 norme AP freins 16'' Style clC avec Full LED et alt 140A famB · 1498 cm³ · 110 kW","Karoq 1.5 TSI (150ch) 4*2 DSG7 norme AP freins 15'' Ambition Classe A avec alt 140A famA · 1498 cm³ · 110 kW","Karoq 1.5 TSI (150ch) 4*2 DSG7 norme AP freins 16'' Ambition Classe A avec alt 140A famA · 1498 cm³ · 110 kW","Karoq 1.5 TSI (150ch) 4*2 DSG7 norme AP freins 16'' Ambition clA Full LED et alt 140A famA · 1498 cm³ · 110 kW","Karoq 1.5 TSI (150ch) 4*2 DSG7 norme AP freins 16'' Ambition clC Full LED et alt 140A famB · 1498 cm³ · 110 kW","Karoq 1.5 TSI (150ch) 4*2 DSG7 norme AP freins 16'' Style clB avec Full LED et alt 140A famA · 1498 cm³ · 110 kW","Karoq 1.5 TSI (150ch) 4*2 DSG7 norme AP freins 16'' Style clB avec Full LED et alt 140A famB · 1498 cm³ · 110 kW","Karoq 1.5 TSI (150ch) 4*2 DSG7 norme AP freins 16'' Style clC avec Full LED et alt 140A famB · 1498 cm³ · 110 kW","Karoq Ambition 1.0 TSI (110ch) BVM6 4x2 classe A · 999 cm³ · 81 kW","Karoq Ambition 1.5 TSI (150ch) BVM6 4x2 classe A · 1498 cm³ · 110 kW","Karoq Ambition 1.5 TSI (150ch) DSG7 4x2 classe A · 1498 cm³ · 110 kW","Karoq Ambition 1.5 TSI (150ch) DSG7 4x2 classe B · 1498 cm³ · 110 kW","Karoq Ambition 1.5 TSI (150ch) DSG7 4x2 classe C · 1498 cm³ · 110 kW","Karoq Sportline 1.5 TSI (150ch) DSG7 4x2 classe B · 1498 cm³ · 110 kW","Karoq Sportline 1.5 TSI (150ch) DSG7 4x2 classe C · 1498 cm³ · 110 kW","Karoq Style 1.5 TSI (150ch) DSG7 4x2 classe C · 1498 cm³ · 110 kW"],"diesel":["Karoq 2.0 TDI (116ch) BVM6 4*2 norme AP freins 15'' Ambition Classe A avec alt 140A famA · 1968 cm³ · 85 kW","Karoq 2.0 TDI (116ch) DSG7 4*2 norme AP freins 15'' Ambition Classe A avec alt 140A famA · 1968 cm³ · 85 kW","Karoq Ambition 2.0 TDI (116ch) BVM6 4x2 classe A · 1968 cm³ · 85 kW","Karoq Ambition 2.0 TDI (116ch) DSG7 4x2 classe A · 1968 cm³ · 85 kW","Karoq Style 2.0 TDI (116ch) DSG7 4x2 classe C · 1968 cm³ · 85 kW","Karoq Style 2.0 TDI (150ch) DSG7 4x4 classe A · 1968 cm³ · 110 kW"]},
+    "Kodiaq": {"diesel":["Kodiaq 2.0 TDI (150ch) DSG7 4*2 nAP 7PL clA Full LED et alt 140A (uniqt b auto) famA · 1968 cm³ · 110 kW","Kodiaq 2.0 TDI (150ch) DSG7 4*2 norme AP 7PL clA Full LED (uniqt boite auto) famA · 1968 cm³ · 110 kW","Kodiaq 2.0 TDI (200ch) DSG7 4*4 norme AP 5PL Pack Sport/L&K clB Full LED et alt 140A famA · 1968 cm³ · 147 kW","Kodiaq Ambition 2.0 TDI (150ch) DSG7 4x4 7PL classe A · 1968 cm³ · 110 kW","Kodiaq Style 2.0 TDI (150ch) DSG7 4x4 7PL classe A · 1968 cm³ · 110 kW","Kodiaq Style 2.0 TDI (150ch) DSG7 4x4 7PL classe B · 1968 cm³ · 110 kW","Kodiaq Style 2.0 TDI (200ch) DSG7 4x4 7PL classe A · 1968 cm³ · 147 kW"],"petrol":["Kodiaq RS 2.0 TSI (245ch) DSG7 4x4 7PL classe B · 1984 cm³ · 180 kW"]},
+    "Octavia": {"diesel":["OCTAVIA Berline 2.0 TDI (150ch) DSG7 · 1968 cm³ · 110 kW"],"hybrid":["OCTAVIA Berline 1.0 TSI (110ch) DSG7 mHEV famille A · 999 cm³ · 81 kW","OCTAVIA Berline 1.5 TSI (150ch) DSG7 mHEV · 1498 cm³ · 110 kW","OCTAVIA Combi 1.0 TSI (110ch) DSG7 mHEV famille A · 999 cm³ · 81 kW","OCTAVIA Combi 1.5 TSI (150ch) DSG7 mHEV famille A · 1498 cm³ · 110 kW"],"petrol":["OCTAVIA Combi 1.0 TSI (110ch) BVM6 · 999 cm³ · 81 kW"]},
+    "Scala": {"petrol":["Scala 1.0 TSI (110ch) DSG7 Norme AP chÃ¢ssis sport select Monte-Carlo classe B et famille A · 999 cm³ · 81 kW"]}
+  },
+  "Subaru": {
+    "Forester": {"hybrid":["2.0I E-BOXER (150ch) LINEARTRONIC AWD PREMIUM PACK (MY22) · 1995 cm³ · 110 kW"]},
+    "Solterra": {"electric":["EV 160 kW AWD LUXURY (MY23)"]}
+  },
+  "Suzuki": {
+    "Ignis": {"hybrid":["IGNIS 1.2 DUALJET HYBRID PACK/PRIVILEGE ALLGRIP · 1197 cm³ · 61 kW","IGNIS 1.2 DUALJET HYBRID PACK/PRIVILEGE AUTO (CVT) · 1197 cm³ · 61 kW","IGNIS 1.2 DUALJET HYBRID · 1197 cm³ · 61 kW","IGNIS 1.2 HYBRID · 1197 cm³ · 61 kW"]},
+    "Swace": {"hybrid":["SWACE · 1798 cm³ · 72 kW"]},
+    "Swift": {"hybrid":["SWIFT 1.2 DUALJET HYBRID AVANTAGE · 1197 cm³ · 61 kW","SWIFT 1.2 DUALJET HYBRID PRIVILEGE AUTO (CVT) · 1197 cm³ · 61 kW","SWIFT 1.2 DUALJET PRIVILEGE ALLGRIP · 1197 cm³ · 61 kW","SWIFT SPORT · 1373 cm³ · 95 kW"]},
+    "SX4": {"hybrid":["S-CROSS 1.4 HYBRID AUTO · 1373 cm³ · 95 kW","SCROSS 1.5 DUALJET HYBRID · 1462 cm³ · 75 kW","SX4 SCROSS 1.4 BOOSTERJET HYBRID AVANTAGE/PRIVILEGE/STYLE · 1373 cm³ · 95 kW","SX4 SCROSS 1.4 BOOSTERJET HYBRID PRIVILEGE/STYLE ALLGRIP · 1373 cm³ · 95 kW"]},
+    "Vitara": {"hybrid":["VITARA 1.4 HYBRID AUTO · 1373 cm³ · 95 kW"]}
+  },
+  "Tesla": {
+    "Model 3": {"electric":["MODEL 3 (153Kw)","MODEL 3 (88Kw)"]}
+  },
+  "Toyota": {
+    "C-HR": {"hybrid":["Toyota C-HR 1.8L Hybride (122ch) Distinctive MC19 · 1798 cm³ · 72 kW","Toyota C-HR 1.8L Hybride (122ch) Dynamic. Dynamic Business MC19 · 1798 cm³ · 72 kW","Toyota C-HR 1.8L Hybride (122ch) Edition MC19 · 1798 cm³ · 72 kW","Toyota C-HR 1.8L Hybride (122ch) GR SPORT MC19 · 1798 cm³ · 72 kW","Toyota C-HR 2.0L Hybrid Dynamic Force (184ch) Collection MC19 · 1987 cm³ · 112 kW","Toyota C-HR 2.0L Hybrid Dynamic Force (184ch) GR SPORT MC19 · 1987 cm³ · 112 kW"]},
+    "Camry": {"hybrid":["Camry 2.5L Hybrid Dynamic Force (218ch) Berline Design. Lounge · 2487 cm³ · 131 kW","Camry 2.5L Hybrid Dynamic Force (218ch) Berline Dynamic. Dynamic Business · 2487 cm³ · 131 kW"]},
+    "Yaris": {"hybrid":["Yaris 1.5L (116ch) Hybrid Collection · 1490 cm³ · 68 kW","Yaris 1.5L (116ch) Hybrid Dynamic Business Pack. Design · 1490 cm³ · 68 kW","Yaris 1.5L (116ch) Hybrid Dynamic. Dynamic Business · 1490 cm³ · 68 kW","Yaris 1.5L (116ch) Hybrid GR SPORT · 1490 cm³ · 68 kW","Yaris 1.5L (116ch) Hybrid Iconic · 1490 cm³ · 68 kW"],"petrol":["GR Yaris 1.6L Turbo / BVM6 GR-FOUR 3P Pack Premium. Track · 1618 cm³ · 192 kW","Yaris 1.0L (70ch) VVT-i Dynamic Business RDS + Pack. Design RDS + Pack · 998 cm³ · 53 kW","Yaris 1.0L (70ch) VVT-i Dynamic RDS. Dynamic Business RDS · 998 cm³ · 53 kW","Yaris 1.0L (70ch) VVT-i Dynamic business Pack Confort Plus. Design · 998 cm³ · 53 kW","Yaris 1.0L (70ch) VVT-i Dynamic. Dynamic Business · 998 cm³ · 53 kW","Yaris 1.5L (120ch) VVT-i Dynamic Business. Design · 1490 cm³ · 92 kW","Yaris 1.5L (120ch) VVT-i Dynamic. Dynamic Business RDS · 1490 cm³ · 92 kW"]},
+    "Yaris Cross": {"hybrid":["Yaris Cross 1.5L (116ch) Hybrid 2WD Collection MY21 · 1490 cm³ · 68 kW","Yaris Cross 1.5L (116ch) Hybrid 2WD Design MY21 · 1490 cm³ · 68 kW","Yaris Cross 1.5L (116ch) Hybrid 2WD Dynamic Business MY21 · 1490 cm³ · 68 kW","Yaris Cross 1.5L (116ch) Hybrid 2WD Dynamic MY21 · 1490 cm³ · 68 kW","Yaris Cross 1.5L (116ch) Hybrid 2WD Trail MY21 · 1490 cm³ · 68 kW","Yaris Cross 1.5L (116ch) Hybrid AWD-i Collection MY21 · 1490 cm³ · 68 kW","Yaris Cross 1.5L (116ch) Hybrid AWD-i Design MY21 · 1490 cm³ · 68 kW","Yaris Cross 1.5L (116ch) Hybrid AWD-i Dynamic Business MY21 · 1490 cm³ · 68 kW","Yaris Cross 1.5L (116ch) Hybrid AWD-i Trail / PremiÃ¨re MY21 · 1490 cm³ · 68 kW"]}
+  },
+  "Volvo": {
+    "XC60": {"hybrid":["XC60 B4 Diesel FWD BVA8 (190ch) · 1969 cm³ · 145 kW"]},
+    "Xc90": {"hybrid":["XC90 B5 Diesel AWD 7PL · 1969 cm³ · 173 kW"]}
+  },
+  "VW": {
+    "Caddy": {"diesel":["CADDY 5 Caddy/Life 2.0 TDI (102ch) BVM6 · 1968 cm³ · 75 kW","CADDY 5 Caddy/Life/Style 2.0 TDI (102ch) BVM6 5PL · 1968 cm³ · 75 kW","CADDY 5 Caddy/Life/Style 2.0 TDI (102ch) BVM6 7PL · 1968 cm³ · 75 kW","CADDY 5 Caddy/Life/Style 2.0 TDI (122ch) Boite DSG 7 vit 5PL · 1968 cm³ · 90 kW","CADDY 5 Caddy/Life/Style 2.0 TDI (122ch) Boite DSG 7 vit 7PL · 1968 cm³ · 90 kW","CADDY 5 Caddy/Life/Style 2.0 TDI (122ch) Boite DSG 7 vit · 1968 cm³ · 90 kW","CADDY 5 Caddy/Life/Style 2.0 TDI (122ch) DSG7 · 1968 cm³ · 90 kW","CADDY 5 MAXI Caddy/Life 2.0 TDI (102ch) BVM6 · 1968 cm³ · 75 kW","CADDY 5 MAXI Caddy/Life/Style 2.0 TDI (122ch) DSG7 · 1968 cm³ · 90 kW"],"petrol":["CADDY 5 Caddy/Life/Style 1.5 TSI (114ch) Boite DSG 7 vit 5PL · 1498 cm³ · 84 kW","CADDY 5 Caddy/Life/Style 1.5 TSI (114ch) Boite DSG 7 vit 7PL · 1498 cm³ · 84 kW","CADDY 5 Caddy/Life/Style 1.5 TSI (114ch) Boite DSG 7 vit · 1498 cm³ · 84 kW","CADDY 5 Caddy/Life/Style 1.5 TSI (114ch) DSG7 · 1498 cm³ · 84 kW","CADDY 5 MAXI Caddy/Life/Style 1.5 TSI (114ch) DSG7 · 1498 cm³ · 84 kW"]},
+    "T-Roc": {"petrol":["T-ROC 1.0 TSI (110ch) Traction SUV BVM6 pn de 16'' Ã  17'' · 999 cm³ · 81 kW","T-ROC 1.5 TSI (150ch) Traction SUV BVM6 pn de 16'' Ã  19'' · 1498 cm³ · 110 kW","T-ROC 1.5 TSI (150ch) Traction SUV DSG7 pn de 16'' Ã  19'' · 1498 cm³ · 110 kW","T-ROC CABRIOLET 1.0 TSI (110ch) Traction Cab BVM6 pn de 17'' Ã  19'' · 999 cm³ · 81 kW","T-ROC CABRIOLET 1.5 TSI (150ch) Traction Cab DSG7 pn de 17'' Ã  19'' · 1498 cm³ · 110 kW"],"diesel":["T-ROC 2.0 TDI (115ch) Traction SUV BVM6 pn de 16'' Ã  17'' · 1968 cm³ · 85 kW","T-ROC 2.0 TDI (150ch) 4MOTION SUV DSG7 pn de 17'' Ã  19'' · 1968 cm³ · 110 kW","T-ROC 2.0 TDI (150ch) Traction SUV DSG7 pn de 16'' Ã  19'' · 1968 cm³ · 110 kW"]},
+    "Touran": {"diesel":["TOURAN 2.0 TDI (122ch) 5PL BVM6 pn de 16'' Ã  17'' · 1968 cm³ · 90 kW","TOURAN 2.0 TDI (150ch) 5PL DSG7 pn de 16'' Ã  18'' · 1968 cm³ · 110 kW","TOURAN 2.0 TDI (150ch) 7PL DSG7 pn de 16'' Ã  18'' · 1968 cm³ · 110 kW"],"petrol":["TOURAN 1.5 TSI (150ch) 5PL BVM6 pn de 16'' Ã  17'' · 1498 cm³ · 110 kW","TOURAN 1.5 TSI (150ch) 7PL BVM6 pn de 16'' Ã  17'' · 1498 cm³ · 110 kW"]}
+  }
+}
