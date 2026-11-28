@@ -16,7 +16,7 @@ export default function Header({ locale }: HeaderProps) {
   const { nav } = getSiteContent(locale);
 
   const links = [
-    { href: `/${locale}#garage`, label: nav.garage },
+    { href: `/${locale}/garage`, label: nav.garage },
     { href: `/${locale}#services`, label: nav.services },
     { href: `/${locale}#about`, label: nav.about },
   ];
